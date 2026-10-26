@@ -1,9 +1,9 @@
-#inlcude <iostream>
-#inlcude <fstream>
+#include <iostream>
+#include <fstream>
 #include <sstream>
 using namespace std;
 
-int main {
+int main () {
 
 ifstream TEXTO("input/TEXTO.txt");
 ofstream TEXTOsalida("output/TEXTOsalida.txt");
@@ -18,4 +18,4 @@ if (TEXTO.is_open() && TEXTOsalida.is_open()){
 	} 
 }
 
-}
+
